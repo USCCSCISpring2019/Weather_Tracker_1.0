@@ -1,7 +1,7 @@
 # HW2_summer2019_philip_jung
 
-## The program starts @ index.jsp
-For that reason, the web.xml file was not editted at all.
+## index.jsp
+The program starts here by default, and for that reason, the web.xml file was not editted at all.
 This index.jsp file reads the text message located in the same logical directory.
   If the file is missing or erroneous, simply redirect to error.jsp which is a page that simply displays a message. 
   Else, the page is loaded, the string is parsed into city objects and stored in a session ArrayList<City> object called cityList.
